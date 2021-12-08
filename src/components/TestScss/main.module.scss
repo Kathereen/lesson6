@@ -1,0 +1,19 @@
+$white-color: #fcf5ed;
+$dark-color: #8f230b;
+$light-color: #e6d5c3;
+$medium-color: #10f341;
+$alert-color: #cb492a;
+$light-black-color: #c254c2;
+$black-color: #732fb8;
+$background-btn-color: black;
+
+:export {
+  whitecolor: $white-color;
+  darkcolor: $dark-color;
+  lightcolor: $light-color;
+  mediumcolor: $medium-color;
+  alertcolor: $alert-color;
+  lightblackcolor: $light-black-color;
+  blackcolor: $black-color;
+  btncolor:$background-btn-color;
+}

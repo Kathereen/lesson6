@@ -1,0 +1,22 @@
+.input{
+    background-color: rgb(185, 241, 163);
+    border: 2px solid rgb(162, 0, 255);
+}
+.btn{
+    background-color: rgb(50, 7, 121);
+    color: white;
+}
+.label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.errors{
+    border: 2px solid red;
+}
+input{
+    background-color: rgb(159, 241, 200);
+}
+label{
+    font-size: 20px;
+    color: rgb(224, 26, 158);
+}

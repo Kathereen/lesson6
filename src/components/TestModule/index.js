@@ -44,8 +44,7 @@ class TestModule extends React.Component{
             error: false,
             submit:"submit succes"   
         })
-        return
-           
+        return       
     }
     handleSubmit(e){
         console.log(this.state.submit)
@@ -53,14 +52,14 @@ class TestModule extends React.Component{
         
     }
     render(){
-        const errorColor = this.state.error? 'red':'white'
+        
         return(
             <div><h2>Task 2</h2>
                 <label>Enter login</label>
-                <input type='text' name='login' onChange={this.handleChange} style={{borderColor:errorColor}}/>
+                <input type='text' name='login' onChange={this.handleChange} className={this.state.error? myStyle.errors:myStyle.border}/>
                 <br/>
                 <label>Enter password</label>
-                <input type='password' name='pass' onChange={this.handleChange} style={{borderColor:errorColor}}/>
+                <input type='password' name='pass' onChange={this.handleChange} className={this.state.error? myStyle.errors:myStyle.border}/>
                 <br/>
                 {this.state.allow ==1?
                     <button type='button'value='Submit' className={myStyle.btn} onClick={this.handleSubmit}>Submit</button>:
